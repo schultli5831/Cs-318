@@ -1,0 +1,21 @@
+html :lang(english) 
+body{background-color: rgb(6, 6, 56);}
+body{color: rgb(11, 5, 48);}
+body{font-family: 'Courier New', Courier, monospace;}
+body{margin: 0%;}
+header{background-color: rgb(25, 64, 100);}
+header{padding: 2rem;}
+header a{color: rgb(66, 211, 221);}
+header{text-align: center;}
+main {padding:1rem}
+.home-content div {display: inline-block; width: 60%;}
+.home-content image {width:60% ;vertical-align:top}
+.jellies, .whales, .creatures{padding: 1rem}
+.jellies, .whales, .creatures{vertical-align: top;}
+.jellies, .whales, .creatures{display: inline-block}
+.jellies, .whales, .creatures{background-color: rgb(19,107,114)}
+.jellies, .whales, .creatures{margin: .5rem;}
+.jellies {width: 29%;}
+img {max-width: 100%;}
+.whales {width: 46%;}
+.creatures {width: 29%;}
