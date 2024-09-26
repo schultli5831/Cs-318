@@ -1,0 +1,16 @@
+body{
+    background-image:url(images/backgroundpie.jpg);background-position: 0%; background-size: cover ; background-repeat:no-repeat ;
+}
+h2{
+    background-color:white; padding: 1rem; display: inline-block;
+}
+h2{
+    background-color:white; padding: 1rem; display: inline-block;
+}
+p{background-color: tan;display: inline-block;}
+nav {background-color: tan;padding: 1rem;display: inline-block;padding: 1rem;}
+nav a:hover{background-color: rgb(93, 57, 16);}
+nav a:active{background-color: rgb(179, 129, 100);}
+nav a:visited{background-color: rgb(238, 205, 205);}
+nav a {background-color: tan;}
+
