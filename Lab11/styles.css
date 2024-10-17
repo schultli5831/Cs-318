@@ -1,15 +1,18 @@
+head{font-family: 'Times New Roman', Times, serif;
+width:37%;}
 body{
     background-color: #000000;
     margin: 0%;
-    color:#fff;
-    font-family:'Times New Roman', Times, serif;
-    background-image:url(Images/Screenshot\ 2024-10-15\ 095845.png); background-repeat: no-repeat; background-size:contain ; 
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(Images/Screenshot\ 2024-10-15\ 095845.png); background-repeat: no-repeat; background-size: contain ; 
 }
 header{
     background-color: #764f27;   
     display: flex; 
     flex-direction: column-reverse;
     align-items: center;
+    padding: 1rem;
 }
 h1{
     color: #ffffff
@@ -24,12 +27,34 @@ h4{
     color: #ffffff;
 }
 footer{
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    align-items: center;
     background-color: #764f27;
     color: #000000
 }
-section{
-    padding: 3rem;
+main{
+    display: flex;gap: 1rem;
+    padding-left: 1rem;
 }
+div{ 
+    width: 23.2%;}
+.pic{
+    border: 1rem solid #764f27; width: 340px; height: 230px;}
+.outside .pic {
+    width: 100%;}
+.outside{
+    background-color: #000000;
+    padding-top: 4rem;
+    padding-left: 1.5rem;}
+@media (max-width:1900px) {
+    main{ flex-wrap: wrap;}
+    
+}
+
+
+    
+
 
     
 
