@@ -24,7 +24,7 @@ form>label{
 }
 fieldset{
     font-size: 1.5rem;
-    margin: 1rem 0 .25;
+    margin: 1rem 0 .25rem;
     border: 3px solid yellowgreen;
     border-radius: .25rem;
 }
