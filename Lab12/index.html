@@ -13,44 +13,36 @@
     <header>
 <h1>Monster Creator</h1>
     </header>
-    <Main>
+<main>
 <form  action="https://theresahanson.com/monster-creator"  method="post"  enctype="multipart/form-data" >
-    <!--The for needs to match the id on the next line-->
     <label for="first-name"> First Name</label>
     <input type="text" name="monster-name" id="first-Name">
     <label for="email">Email</label>
-    <input type="email" name="monster-email" id="email"> 
+    <input type="email" name="monster-email" id="email">
     <label for="birthdate">Birthdate</label>
     <input type="date" name="monster-birthday" id="birthdate">
 <fieldset>
     <legend>Scary?</legend>
-    <!--The for needs to match the id on the next line-->
-    <label for="YES!">Yes!</label>
-    <input type="radio" name="monster-scary" id="scary-yes" value="Yes!"> 
-    <!--The for needs to match the id on the next line-->
-    <label for="No">No!</label>
-    <input type="radio" name="monster-scary" id="scary-no" value="No!"> 
+    <label for="YES!">Yes</label>
+    <input type="radio" name="monster-scary" id="Yes" value="Yes!">
+    <label for="No">No</label>
+    <input type="radio" name="monster-scary" id="No" value="No!">
 </fieldset>
-<!--The for needs to match the id on the next line-->
     <label for="Color of Monster"> Color of Monster</label>
-    <input type="color" name="monster-color" id="color">
-    <!--The for needs to match the id on the next line-->
+    <input type="color" name="monster-color" id="Color of Monster">
     <label for="Number of Tentacles"> Number of Tentacles</label>
-    <input type="number" name="monster-tentacles" id="tentacles" value="0" min="0" max="1000000">
-    <!--The for needs to match the id on the next line-->
+    <input type="number" name="monster-tentacles" id="Number of Tentacles" value="0" min="0" max="1000000">
     <label for="Picture of Monster"> Picture of Monster</label>
-    <input type="file" name="monster-picture" id="Picture" accept="images/*">
-    <!--The for needs to match the id on the next line-->
+    <input type="file" name="monster-picture" id="Picture of Monster" accept="images/*">
     <label for="Number of Eyeballs"> Number of Eyeballs</label>
-    <input type="number" name="monster-eyes" id="eyes" min="0" max="22">
-    <!--The for needs to match the id on the next line-->
+    <input type="number" name="monster-eyes" id="Number of Eyeballs" min="0" max="22">
     <label for="Monster's Creator"> Monster's Creator</label>
-    <input type="text" name="monster-creator" id="creator" value="Your Name Here">
+    <input type="text" name="monster-creator" id="Monster's Creator" value="Your Name Here">
 <div class="actions">
     <input type="reset">
     <input type="submit">
 </div>
 </form>
-    </Main>
+</main>
 </body>
 </html>

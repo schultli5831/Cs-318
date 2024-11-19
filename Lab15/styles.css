@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif, oswald;
+    font-family: sans-serif, 'Oswald';
     font-weight: 300;
     margin: 1rem;
 }
@@ -228,4 +228,32 @@ form{
 dialog p{
     margin: 0;
 }
-LEFT OFF AT .gallery!!!!
+@media screen and (min-width: 1000px) 
+{}
+@media screen and (min-width: 1000px)
+{}
+.gallery img{
+    max-width: 50vw;
+    height: calc(50vw/1.778);
+}
+.gallery{
+    height: calc(50vw/1.778);
+}
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+.about h2{
+    grid-column: span 2;
+}
+.about img:nth-child(3){
+    grid-area: 2/2/4/3;
+}
+.about img:nth-child(5){
+    grid-area: 4/2/6/3;
+}
+section {
+    max-width: 50rem;
+    margin: 1rem auto;
+}
