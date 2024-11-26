@@ -61,7 +61,7 @@ footer a{
 section.headline{
     background-image: url(Images/cafe.png);
     background-size: cover;
-    background-color: rbg(23,0,65);
+    background-color: rbg(23,0,65);/*rgb not rbg*/
     padding: 5rem 2rem;
     color: #ffffff;
 }
@@ -78,7 +78,7 @@ section.headline{
     max-width: calc(100% - 2rem);
     width: 20rem;
 }
-button{
+button{/*Mising period before button*/
     padding: .5rem 1rem;
     background-color:#ffffff;
     color:#3b325a;
@@ -89,7 +89,7 @@ button{
     font-family: 'Bebas Neue', sans-serif;
     border: none
 }
-button:hover{
+button:hover{/*Mising period before button*/
     box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.6);
 }
 form .button{
@@ -218,7 +218,7 @@ dialog.show{
  position: absolute;
  top: 50%;
  z-index: 2;
- background: color #9a82e8;
+ background: color #9a82e8;/*background-color */
  color: #fff;
  padding: 2rem;
 }
@@ -228,10 +228,8 @@ form{
 dialog p{
     margin: 0;
 }
-@media screen and (min-width: 1000px) 
-{}
 @media screen and (min-width: 1000px)
-{}
+{
 .gallery img{
     max-width: 50vw;
     height: calc(50vw/1.778);
@@ -256,4 +254,5 @@ dialog p{
 section {
     max-width: 50rem;
     margin: 1rem auto;
+}
 }
