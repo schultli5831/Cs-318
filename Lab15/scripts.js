@@ -1,7 +1,5 @@
-// gallery component
-document.addEventListener('DOMContentLoaded', function(){
+
 	var rotate = function(component, step){
-	// figure out width of container
     var slide = component.querySelector('.slide');
     let slideWidthVw = ((slide.offsetWidth / document.documentElement.clientWidth)-1) * 100;
     var left = Number(slide.style.left.replace('vw', ''));
@@ -19,8 +17,7 @@ for(var i = 0; i < components.length; i++){
     component.querySelector('.right').addEventListener('click', function(){
         rotate(component, -1);
     });
-}
-});
+};
 document.addEventListener('DOMContentLoaded', function(){
     document.querySelectorAll('.cloner').forEach(function(cloner){
         cloner.querySelector('.add-button').addEventListener('click', function(e){
@@ -40,7 +37,6 @@ function removeRow(e){
     let row = button.closest('.row');
     row.remove();
 }
-//dialog box
 document.addEventListener("DOMContentLoaded", function(){
     document.querySelector('form a[href="#"]').addEventListener('click', function(){
         document.querySelector('form dialog').classList.toggle('show');
