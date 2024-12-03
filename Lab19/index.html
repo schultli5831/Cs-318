@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js"></script>
+<title>The Eiger</title>
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js" defer></script>
+</head>
+<body>
+<img src="images/grindelwald.jpg" alt="Grindelwald" class="parallax">
+<div class="overlay toggle-nav"></div>
+<header>
+<div class="hamburger" onclick="toggleNav()">
+    <hr><hr><hr>
+</div>
+<nav class="toggle-nav">
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#routes">Climb</a>
+    <a href="#contact">Contact</a>
+    <h1>Eiger</h1>
+</nav>
+<div class="social">
+    <a href="https://fb.com"><img src="images/facebook.svg" alt="Facebook"></a>
+    <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+    <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" alt="Pinterest"></a>
+</div>
+</header>
+
+<main>
+<section class="call-to-action">
+    <h2>The Eiger</h2>
+    <a href="#contact" class="button">Explore the Mountains</a>
+</section>
+<section class="mountains" id="about">
+    <h3>The Mountain</h3>
+    <p>Because of its famous north face, the Eiger is one of the most famous and written about peaks in the world...</p>
+    <p>The Eiger is located in the Jungfrau Region of the Berner Oberland. It is normally reached from Interlaken...</p>
+</section>
+<section class="gallery" id="gallery">
+    <h3>Gallery</h3>
+    <div>
+        <img src="images/gallery/alpine-panorama.jpg" alt="Alpine Panorama" class="panorama">
+        <img src="images/gallery/alpine.jpg" alt="Alpine">
+        <img src="images/gallery/eiger.jpg" alt="Eiger">
+        <img src="images/gallery/gorge-rock.jpg" alt="Gorge Rock">
+        <img src="images/gallery/panoramic.jpg" alt="Panoramic">
+        <img src="images/gallery/sunrise.jpg" alt="Sunrise">
+    </div>
+</section>
+<section class="routes" id="routes">
+    <h3>The Routes</h3>
+    <div>
+        <img src="images/alpine.jpg" alt="Alpine">
+        <h4>West Flank & West Ridge</h4>
+        <h5>AD (G4) with III-, 1650m</h5>
+        <p>The West Flank & West Ridge is the easiest route to the summit...</p>
+        <a href="https://climbingthesevensummits.com/personal-sherpa-climb/" class="button">Climb It</a>
+    </div>
+    <div>
+        <img src="images/eiger.jpg" alt="Eiger North Face">
+        <h4>North Face</h4>
+        <h5>1938 Route: ED2 (G14) V-, A0, 60°, 1800m</h5>
+        <p>Since the first ascent of the face in 1938, there have been numerous new routes...</p>
+        <a href="https://climbingthesevensummits.com/personal-sherpa-climb/" class="button">Climb It</a>
+    </div>
+    <div>
+        <img src="images/jungfraujoch.jpg" alt="Jungfraujoch">
+        <h4>Mittellegi Ridge</h4>
+        <h5>D (G5) with IV & fixed ropes</h5>
+        <p>The Mittellegi Ridge is probably the most popular route on the Eiger...</p>
+        <a href="https://climbingthesevensummits.com/personal-sherpa-climb/" class="button">Climb It</a>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h3>Contact</h3>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <textarea placeholder="Type message here..."></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+</main>
+<footer>
+<span>Copyright <script>document.write(new Date().getFullYear());</script></span>
+<div class="social">
+    <a href="https://fb.com"><img src="images/facebook.svg" alt="Facebook"></a>
+    <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+    <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" alt="Pinterest"></a>
+</div>
+</footer>
+</body>
+</html>
