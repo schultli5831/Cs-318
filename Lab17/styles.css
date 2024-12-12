@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE9BD;
+    color: #333;
+}
+
+header {
+    background-color: #3B2511;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav {
+    overflow: hidden;
+    color: #3B2511;
+    display:inline-block;
+    justify-content: center;
+    padding: 5px 0;
+    
+}
+
+nav a {
+    color: #3B2511;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.section h2 {
+    color: #3B2511;
+    font-weight: 600;
+}
+
+.section img {
+    max-width: 100%;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.recipe {
+    background-color: #775238;
+    color: #FFE9BD;
+    padding: 25px; 
+    width: 25%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.recipe h3 {
+    margin-top: 0;;
+    color: #FFE9BD;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.recipe h4 {
+    margin-top: 20px;
+    color: #FFE9BD;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #FFE9BD;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+nav a:active{background-color: rgb(179, 129, 100);}
+nav a:visited{background-color: rgb(238, 205, 205);}
+nav a {background-color: #FFE9BD;}
