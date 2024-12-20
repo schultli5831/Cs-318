@@ -1,0 +1,64 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8e5c2;
+    color: #4a3c2f;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4a3c2f;
+    color: #4a3c2f;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    display:block;
+    justify-content: center;
+    background-color: #f8e5c2;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.section h2 {
+    color: #4a3c2f;
+}
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.recipe {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #ffe9bd;
+    padding: 15px;
+    border-radius: 5px;
+}
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.recipe h3 {
+    color: #4a3c2f;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
