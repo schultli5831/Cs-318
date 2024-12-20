@@ -57,13 +57,13 @@ header nav {
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
     top: 4.75rem;
-    position: static;
-    background-color: unset;
-    width: unset;
+    position: fixed;
+    background-color:  #0b132b;
+    width: 100%;
 }
 header nav a {
-    display:block
-    color #00e3c8;
+    display:block;
+    color: #00e3c8;
     text-align: center;
     text-decoration: none;
     padding: 3rem;
@@ -91,7 +91,7 @@ header nav.show {
 section {
     padding: 1rem;
 }
-.call-to-action h2 {
+.call-to-action h2 {/*no h2 for this one*/
     padding: 6rem 1rem 3rem;
 }
 .call-to-action h2{
@@ -153,10 +153,17 @@ input:focus[type=text], input:focus[type=email], textarea:focus{
     outline: none;
     border: 1px solid #00e3c8;
 }
-@media screen (min-width:1000px) {
-    .hamburger
+@media (min-width:1000px) {
+    .hamburger{
     display: none;
 }
+/*missing
+header{
+background-color:unset;
+position:static;
+width:unset;
+}
+*/
 header nav a{
     border: none;
     padding: 2rem;
@@ -167,14 +174,14 @@ header nav a:hover {
     text-decoration: underline;
 }
 .social{
-    padding: right 2rem;
+    padding: right 2rem;/*padding-right:2rem;*/
 }
 h1{
-    margin: left -16rem;
+    margin: left -16rem;/*margin-left:-16rem;*/
 }
 .call-to-action h2{
     font-size: 5rem;
-    margin: bottom 1rem;
+    margin: bottom 1rem;/*margin-bottom:1rem;*/
 }
 p, h3{
     max-width: 900px;
@@ -182,6 +189,14 @@ p, h3{
     display: flex;
     flex-wrap: wrap;
 }
+/*missing
+.gallery div{
+    max-width:900px;
+    margin:1rem auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+    */
 .gallery img{
     display: block;
     width: 31%;
@@ -210,4 +225,4 @@ form{
 footer{
     justify-content: space-between;
     padding: .5rem 1rem;
-}
+}}
